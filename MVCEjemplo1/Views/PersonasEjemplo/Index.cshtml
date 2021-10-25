@@ -1,0 +1,19 @@
+﻿@using MVCEjemplo1.Models;
+@model Persona 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Model.Id @Model.Nombre @Model.FechaNacimiento
+    </div>
+</body>
+</html>
